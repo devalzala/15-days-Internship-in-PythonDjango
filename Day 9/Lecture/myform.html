@@ -1,0 +1,12 @@
+<html>
+<body>
+    <form method="post" action="/formprocess"> 
+        {% csrf_token %}
+        No1: <input type='number' name='txt1' required><br>
+        No2: <input type='number' name='txt2' required><br>
+       
+        <input type = "submit">
+    </form>
+
+</body>
+</html>
